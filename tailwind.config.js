@@ -5,7 +5,18 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'display': ['Bonheur Royale']
+      'display': ['Marisa']
+    },
+    colors: {
+      'gold': {
+        DEFAULT: '#B59D5F',
+      },
+      'black': {
+        DEFAULT: '#231F20',
+      },
+      'white': {
+        DEFAULT: '#FEFFFE',
+      },
     }
   },
   variants: {

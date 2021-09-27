@@ -5,9 +5,8 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 function Application({ Component, pageProps }) {
-  console.log(pageProps)
   return (
-    <div className="container mx-auto bg-black text-gray-100">
+    <div className="flex items-center flex-col h-screen justify-center mx-auto bg-black text-gray-100">
       <Head>
         <title>Jenessa & Sasha's NYE Wedding</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +16,7 @@ function Application({ Component, pageProps }) {
       </Head>
 
       <Header title="J & S" />
-      <main className="w-full">
+      <main className="w-full flex flex-col flex-1 items-center px-0 py-5">
         <Component {...pageProps} />
       </main>
 
