@@ -91,7 +91,7 @@ h3 {
 
 /* General Button Style */
 
-.button {
+.hex {
   position: relative;
   display: block;
   background: transparent;
@@ -107,44 +107,30 @@ h3 {
   font-family: Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 }
-.button:before,
-.button:after {
+
+.hex:before,
+.hex:after {
   position: absolute;
   content: '';
   width: 300px;
   left: 0px;
   height: 34px;
   z-index: -1;
-}
-
-.button:before {
-  transform: perspective(15px) rotateX(3deg);
-}
-.button:after {
-  top: 40px;
-  transform: perspective(15px) rotateX(-3deg);
-}
-
-/* Button Border Style */
-
-.button.border:before,
-.button.border:after {
   border: 4px solid #e04e5e;
-}
-.button.border:before {
-  border-bottom: none; /* to prevent the border-line showing up in the middle of the shape */
-}
-.button.border:after {
-  border-top: none; /* to prevent the border-line showing up in the middle of the shape */
-}
-
-/* Button hover styles */
-
-.button.border:hover:before,
-.button.border:hover:after {
   background: #e04e5e;
 }
-.button.border:hover {
+
+.hex:before {
+  transform: perspective(15px), rotateX(3deg);
+  border-bottom: none;
+}
+.hex:after {
+  top: 40px;
+  transform: perspective(15px), rotateX(-3deg);
+  border-top: none;
+}
+
+.hex:hover {
   color: #fff;
 }
 

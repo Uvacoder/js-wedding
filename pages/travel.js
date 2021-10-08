@@ -58,7 +58,7 @@ const Travel = () => {
               55411
             </address>
 
-            <a href="https://www.loewshotels.com/minneapolis-hotel/white-yunginger-wedding" target="_blank" className="button ribbon-outset border">
+            <a href="https://www.loewshotels.com/minneapolis-hotel/white-yunginger-wedding" target="_blank" className="hex">
               Book your room
             </a>
 
