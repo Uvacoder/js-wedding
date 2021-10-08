@@ -13,24 +13,8 @@ export default function Header({ title }) {
     // }))
   });
   return (
-    // <div className="flex items-center justify-between w-full px-3 py-4 sticky top-0 z-10 bg-black">
-    //   <a href="/">
-    //     <img src="/images/JS_3.svg" alt="gold hexagon with a S & J intertwined"
-    //       className='h-12 w-12'
-    //     />
-    //   </a>
-
-    //   <div className="flex items-center nav hidden md:flex items-center space-x-1">
-    //     <a className={LINK_CLASS} href="/our-story">Our Story</a>
-    //     <a className={LINK_CLASS} href="/schedule">Schedule</a>
-    //     <a className={LINK_CLASS} href="/travel">Travel</a>
-    //     <a className={LINK_CLASS} href="/registry">Registry</a>
-    //     <a className={LINK_CLASS} href="/faqs">FAQs</a>
-    //     <a className={LINK_CLASS} href="/rsvp">RSVP</a>
-    //   </div>
-
     <nav className="bg-black shadow-lg sticky z-10 w-full" style={{ top: '-1px' }}>
-      <div className="w-full max-w-6xl mx-auto px-4">
+      <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex justify-between">
 
           <a href="/" className="flex items-center py-4 px-2">
@@ -76,9 +60,8 @@ export default function Header({ title }) {
             <li><a href="#about" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
             <li><a href="#contact" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
           </ul>
-      </div>
+        </div>
       </div>
     </nav>
-    // </div>
   )
 }
