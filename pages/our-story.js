@@ -6,7 +6,7 @@ const insideStyles = {
 };
 const Container = () => (
   <Parallax bgImage={"/images/hero.jpeg"}>
-    <div style={{ height: 500 }}>
+    <div style={{ height: 400 }}>
       <div className="absolute font-display text-7xl text-black font-semibold" style={insideStyles}>Our Story</div>
     </div>
 

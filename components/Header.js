@@ -29,18 +29,18 @@ export default function Header({ title }) {
     //     <a className={LINK_CLASS} href="/rsvp">RSVP</a>
     //   </div>
 
-    <nav class="bg-black shadow-lg sticky top-0 z-10 w-full">
-      <div class="w-full max-w-6xl mx-auto px-4">
-        <div class="flex justify-between">
+    <nav className="bg-black shadow-lg sticky z-10 w-full" style={{ top: '-1px' }}>
+      <div className="w-full max-w-6xl mx-auto px-4">
+        <div className="flex justify-between">
 
-          <a href="#" class="flex items-center py-4 px-2">
+          <a href="/" className="flex items-center py-4 px-2">
             <img src="/images/JS_3.svg" alt="gold hexagon with a S & J intertwined"
               className='h-12 w-12'
             />
           </a>
 
           {/* <!-- Primary Navbar items --> */}
-          <div class="nav hidden md:flex items-center">
+          <div className="nav hidden md:flex items-center">
             <a className={LINK_CLASS} href="/our-story">Our Story</a>
             <a className={LINK_CLASS} href="/schedule">Schedule</a>
             <a className={LINK_CLASS} href="/travel">Travel</a>
@@ -50,14 +50,14 @@ export default function Header({ title }) {
           </div>
 
           {/* <!-- Mobile menu button --> */}
-          <div class="md:hidden flex items-center">
-            <button class="outline-none mobile-menu-button" ref={btn}>
-              <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+          <div className="md:hidden flex items-center">
+            <button className="outline-none mobile-menu-button" ref={btn}>
+              <svg className=" w-6 h-6 text-gray-500 hover:text-green-500 "
                 x-show="!showMenu"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
@@ -69,12 +69,12 @@ export default function Header({ title }) {
 
 
         {/* <!-- mobile menu --> */}
-        <div class="hidden mobile-menu" ref={menu}>
-          <ul class="">
-            <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
-            <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
-            <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
-            <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
+        <div className="hidden mobile-menu" ref={menu}>
+          <ul className="">
+            <li className="active"><a href="index.html" className="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+            <li><a href="#services" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
+            <li><a href="#about" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
+            <li><a href="#contact" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a></li>
           </ul>
       </div>
       </div>
