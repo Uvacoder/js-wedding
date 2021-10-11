@@ -23,7 +23,7 @@ function Application({ Component, pageProps, router }) {
       </Head>
 
       <Header title="J & S" />
-      <main className="w-full max-w-5xl mx-auto flex flex-col flex-1 items-center px-0 pt-28 md:pb-5 md:pt-10">
+      <main className="w-full mx-auto flex flex-col flex-1 items-center">
         <Component {...pageProps} />
       </main>
 

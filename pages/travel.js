@@ -1,6 +1,6 @@
 const Travel = () => {
   return (
-    <div>
+    <div className="max-w-6xl">
       <div>
         Below you’ll find details about parking, shuttles, and hotel recommendations near the venue.
       </div>
