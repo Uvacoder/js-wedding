@@ -82,17 +82,55 @@ iframe {
 }
 
 p {
-  margin-bottom: 12px;
+  margin: 1rem 0 !important;
 }
 
 .parallax {
-  background-image: url("../public/images/hero.jpeg");
-  min-height: 400px;
+  background-image: url("../public/images/rock.jpeg");
+  min-height: 500px;
 }
 
 .caption {
   position: absolute;
-  bottom: 35px;
+  top: 15%;
+}
+
+.parallax-bottom {
+  background-image: url("../public/images/rock.jpeg");
+  min-height: 500px;
+}
+
+.caption-bottom {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-image: url("../public/images/kiss.jpeg");
+    background-position: bottom;
+    min-height: 350px;
+  }
+
+  .caption {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+  }
+
+  .parallax-bottom {
+    min-height: 250px;
+    background-position: bottom center;
+    background-position-y: 200px;
+    background-position-x: -500px;
+  }
+
+  .caption-bottom {
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+  }
 }
 
 .slideIn {
