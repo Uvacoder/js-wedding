@@ -1,6 +1,6 @@
 const Schedule = () => {
   return (
-    <div className="md:py-10 mx-auto max-w-5xl">
+    <div className="md:pt-10 mx-auto max-w-5xl w-full">
       <div className="flex flex-col md:flex-row p-4 items-center md:p-0 md:mb-4 md:justify-evenly">
         <div className="md:w-1/5 md:mr-3">
           <h1 className="font-semibold text-5xl leading-tight">Schedule</h1>
@@ -13,7 +13,7 @@ const Schedule = () => {
 
       <hr className="my-6 md:my-10 md:mx-12" />
 
-      <div className="flex flex-col p-4 md:p-0 md:flex-row md:justify-evenly">
+      <div className="flex flex-col md:flex-row p-4 md:p-0 md:mb-12 md:justify-evenly">
         <div className="md:w-1/5 md:mr-2">
           <h2 className="font-semibold">
             The When

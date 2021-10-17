@@ -1,5 +1,5 @@
 import { useState } from "react";
-const LINK_CLASS = "m-2 p-2 border-b border-gold font-semibold text-white relative inline-block overflow-hidden transition duration-200"
+const LINK_CLASS = "mr-2 p-2 border-b border-gold font-semibold text-white relative inline-block overflow-hidden transition duration-200"
 const MOBILE_LINK_CLASS = "mx-3 px-1 py-3 border-b border-gold font-semibold text-white"
 export default function Header() {
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
@@ -10,7 +10,7 @@ export default function Header() {
       <div className="w-full max-w-7xl mx-auto px-4">
         <div className="flex justify-between">
 
-          <a href="/" className="flex items-center py-4 px-2">
+          <a href="/" className="flex items-center p-2">
             <img src="/images/JS_3.svg" alt="gold hexagon with a S & J intertwined"
               className='h-12 w-12'
             />

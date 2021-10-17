@@ -8,9 +8,12 @@ const Registry = () => {
           <h1 className="font-semibold text-5xl leading-tight">Registry</h1>
         </div>
         <div className="md:w-2/5">
-          You want to buy us a gift!? First of all, thank you! That's very kind.
+          You want to buy us a gift!?
+          <br />
+          First of all, thank you! That's very kind.
         </div>
       </div>
+      <hr className="my-6 md:my-10 md:mx-12" />
       <Script
         id="zola-registry"
         dangerouslySetInnerHTML={{
@@ -18,7 +21,7 @@ const Registry = () => {
         }}
       />
       <div className="md:w-4/5 mx-auto p-4 md:p-0">
-        <div className="mt-5 md:mt-8 pt-5 md:pt-8 border-white border-t">
+        <div className="mt-5 md:mt-8">
           <p>
             As you know we've lived together for awhile now, we even bought a house in January! So we've got quite a few things already. So we've decided to add a handful things to a registry, but mainly we'd ask for a contribution to our honeymoon fund!
           </p>

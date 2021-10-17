@@ -1,6 +1,6 @@
 const Travel = () => {
   return (
-    <div className="md:pt-10 mx-auto max-w-5xl">
+    <div className="md:pt-10 mx-auto max-w-5xl w-full">
       <div className="flex flex-col md:flex-row p-4 items-center md:p-0 md:mb-4 md:justify-evenly">
         <div className="md:w-1/5 md:mr-3">
           <h1 className="font-semibold text-5xl leading-tight">Travel</h1>
@@ -35,16 +35,12 @@ const Travel = () => {
           </div>
 
           <div className="border-t border-b border-white py-4">
-            <h3 className="font-bold">Traveling by car</h3>
-            <p>
-              We recommend renting a car to easily get around Minneapolis. Everything in general is within a 20 minute drive (including the airport).
-            </p>
-          </div>
-
-          <div className="py-4">
             <h3 className="font-bold">Traveling by plane</h3>
             <p>
               The Minneapolis-Saint Paul (MSP) airport is a 20 minute drive from the venue and hotel.
+            </p>
+            <p>
+              We recommend renting a car to easily get around Minneapolis. Everything in general is within a 20 minute drive (including the airport).
             </p>
           </div>
         </div>
