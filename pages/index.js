@@ -19,7 +19,7 @@ export default function Home() {
               <br />
               Watson Block
               <br />
-              125 SE Main St, Minneapolis, MN, 55414
+              126 N. 1st Ave, Minneapolis, MN, 55411
               <br />
               Attire: Formal Dress Requested
             </p>
