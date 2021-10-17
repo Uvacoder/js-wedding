@@ -23,20 +23,22 @@ const BUTTON_STYLES = {
   width: "100%",
   padding: "10px 0",
 }
-const FAQs = () => {
-  return (
-    <div className="flex flex-col md:flex-row p-4 md:p-0">
-      <div className="md:w-1/3">
-        <h1 className="font-semibold text-7xl leading-tight">FAQs</h1>
+const FAQs = () => (
+  <div className="md:py-10 mx-auto max-w-5xl">
+    <div className="flex flex-col md:flex-row p-4 items-center md:p-0 md:mb-4 md:justify-evenly">
+      <div className="md:w-1/5 md:mr-2">
+        <h1 className="font-semibold text-5xl leading-tight">FAQs</h1>
       </div>
-      <div className="md:w-2/3">
+      <div className="md:w-3/5">
         <Accordion collapsible>
           <AccordionItem>
-            <h3 className="text-2xl">
+            <h3 className="text-lg">
               <AccordionButton style={BUTTON_STYLES}>What is the dress code for your wedding?</AccordionButton>
             </h3>
             <AccordionPanel>
               This is New Year's Eve! Get out that little black dress, your favorite suit, a cute blazer with a silky dress. Dress to impress (yourself, we're already impressed with you!)
+              <br />
+              <span className="font-medium my-2 inline-block">Feel free to <span className="text-gold">SPARKLE!!!</span></span>
             </AccordionPanel>
           </AccordionItem>
 
@@ -48,12 +50,13 @@ const FAQs = () => {
               Absolutely not, although they're so cute and we love them. Take the night off, you deserve it.
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <h3 className="text-2xl">
               <AccordionButton style={BUTTON_STYLES}>Will there be vegan/vegetarian/gluten-free food options?</AccordionButton>
             </h3>
             <AccordionPanel>
-              Absolutely
+              Absolutely.
             </AccordionPanel>
           </AccordionItem>
 
@@ -62,10 +65,7 @@ const FAQs = () => {
               <AccordionButton style={BUTTON_STYLES}>So...COVID?</AccordionButton>
             </h3>
             <AccordionPanel>
-              Here are some detailed instructions about doing yet another thing.
-              There are a lot of things someone might want to do, so I am only going
-              to talk about doing that other thing. I'll let my fellow accordion
-              items go into detail about even more things.
+              We ask that only our vaccinated friends and family attend, for the safety of all those we love (you!).
             </AccordionPanel>
           </AccordionItem>
 
@@ -80,7 +80,8 @@ const FAQs = () => {
         </Accordion>
       </div>
     </div>
-  );
-}
+  </div>
+)
+
 
 export default FAQs;

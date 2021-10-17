@@ -40,6 +40,7 @@ body {
   font-weight: 300;
   margin: 0;
   padding: 0;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 h1, h2, h3 {
@@ -51,11 +52,11 @@ h1 {
 }
 
 h2 {
-  font-size: calc((2 - 1) * 1.2vw + 1rem);
+  font-size: calc(28px + (32 - 20) * ((100vw - 300px) / (1600 - 300))) !important;
 }
 
 h3 {
-  font-size: calc((3 - 1) * 1.2vw + 1rem);
+  font-size: calc(20px + (32 - 20) * ((100vw - 300px) / (1600 - 300))) !important;
 }
 
 .nav a {
@@ -132,6 +133,10 @@ p {
 [data-reach-accordion-panel],
 [data-reach-accordion-panel] {
   padding: 15px 0 0;
+}
+
+[data-reach-accordion-button][data-state="open"] {
+  color:#b59d5f !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

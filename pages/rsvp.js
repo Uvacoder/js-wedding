@@ -2,7 +2,7 @@ import { Widget } from '@typeform/embed-react'
 
 const Rsvp = () => {
   return (
-    <div className="w-full min-w-full h-full min-h-screen">
+    <div className="py-3 mx-auto max-w-5xl w-full">
       <Widget id="xxE1pfPK" className="h-full" />
     </div>
   );
