@@ -97,6 +97,7 @@ p {
 
 .parallax-bottom {
   background-image: url("../public/images/rock.jpeg");
+  background-attachment: fixed;
   min-height: 500px;
 }
 
@@ -109,8 +110,10 @@ p {
 @media only screen and (max-width: 600px) {
   .parallax {
     background-image: url("../public/images/kiss.jpeg");
-    background-position: bottom;
+    background-position: top center;
     min-height: 350px;
+    height: 100%;
+    background-attachment: scroll;
   }
 
   .caption {
@@ -120,16 +123,18 @@ p {
   }
 
   .parallax-bottom {
-    min-height: 250px;
-    background-position: bottom center;
+    background-attachment: scroll;
+    background-position: top center;
     background-position-y: 200px;
     background-position-x: -500px;
+    height: 100%;
+    min-height: 250px;
   }
 
   .caption-bottom {
     position: absolute;
     bottom: 20%;
-    left: 3%;
+    left: 10%;
   }
 }
 

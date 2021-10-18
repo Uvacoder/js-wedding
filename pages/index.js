@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden">
-      <div class="parallax relative bg-fixed bg-no-repeat bg-cover opacity-70">
+      <div class="parallax relative bg-no-repeat bg-cover opacity-70">
         <div class="caption w-full text-center">
           <div className="font-semibold text-white flex flex-col bg-opacity-70 rounded p-2 mx-auto max-w-xs sm:bg-black md:bg-opacity-0 md:max-w-none md:w-4/5">
             <h1 class="font-semibold text-5xl text-white" style={{ textShadow: "3px 1px 10px rgba(0,0,0,0.8)" }}>We're getting married!</h1>
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="bg-cover bg-fixed bg-no-repeat flex opacity-70 parallax-bottom relative md:mt-10">
+      <div className="bg-cover bg-no-repeat flex opacity-70 parallax-bottom relative md:mt-10">
         <div className="caption-bottom text-center">
           <div className="font-semibold text-white flex flex-col bg-black bg-opacity-70 rounded p-4 mx-auto max-w-xs">
             <p style={{ textShadow: "3px 1px 10px rgba(0,0,0,0.8)" }}>
