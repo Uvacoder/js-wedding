@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <div className="w-full overflow-x-hidden">
-      <div class="parallax relative bg-no-repeat bg-cover opacity-70">
-        <div class="caption w-full text-center">
+      <div className="parallax relative bg-no-repeat bg-cover opacity-70">
+        <div className="caption w-full text-center">
           <div className="font-semibold text-white flex flex-col bg-opacity-70 rounded p-2 mx-auto max-w-xs sm:bg-black md:bg-opacity-0 md:max-w-none md:w-4/5">
-            <h1 class="font-semibold text-5xl text-white" style={{ textShadow: "3px 1px 10px rgba(0,0,0,0.8)" }}>We're getting married!</h1>
+            <h1 className="font-semibold text-5xl text-white" style={{ textShadow: "3px 1px 10px rgba(0,0,0,0.8)" }}>We're getting married!</h1>
           </div>
         </div>
       </div>
