@@ -1,6 +1,8 @@
 import { useState } from "react";
-const LINK_CLASS = "mr-2 p-2 border-b border-gold font-semibold text-white relative inline-block overflow-hidden transition duration-200"
+
+const LINK_CLASS = "mr-2 p-1 border-b border-gold font-semibold text-white relative inline-block overflow-hidden transition duration-200"
 const MOBILE_LINK_CLASS = "mx-3 px-1 py-3 border-b border-gold font-semibold text-white"
+
 export default function Header() {
   const [toggleMobileMenu, setToggleMobileMenu] = useState(false);
   const toggle = () => setToggleMobileMenu(!toggleMobileMenu);
@@ -8,21 +10,21 @@ export default function Header() {
   return (
     <nav className="bg-black shadow-lg sticky z-10 w-full" style={{ top: '-1px' }}>
       <div className="w-full max-w-7xl mx-auto px-4">
-        <div className="flex justify-between">
+        <div className="flex justify-between py-1">
 
-          <a href="/" className="flex items-center p-2">
+          <a href="/" className="flex items-center">
             <img src="/images/JS_3.svg" alt="gold hexagon with a S & J intertwined"
-              className='h-12 w-12'
+              className='h-10 w-10'
             />
           </a>
 
           {/* <!-- Primary Navbar items --> */}
           <div className="nav hidden md:flex items-center">
-            <a className={LINK_CLASS} href="/schedule">Schedule</a>
-            <a className={LINK_CLASS} href="/travel">Travel</a>
-            <a className={LINK_CLASS} href="/registry">Registry</a>
-            <a className={LINK_CLASS} href="/faqs">FAQs</a>
-            <a className={LINK_CLASS} href="/rsvp">RSVP</a>
+            <a className={LINK_CLASS} href="/schedule" style={{ fontSize: 18 }}>Schedule</a>
+            <a className={LINK_CLASS} href="/travel" style={{ fontSize: 18 }}>Travel</a>
+            <a className={LINK_CLASS} href="/registry" style={{ fontSize: 18 }}>Registry</a>
+            <a className={LINK_CLASS} href="/faqs" style={{ fontSize: 18 }}>FAQs</a>
+            <a className={LINK_CLASS} href="/rsvp" style={{ fontSize: 18 }}>RSVP</a>
           </div>
 
           {/* <!-- Mobile menu button --> */}
